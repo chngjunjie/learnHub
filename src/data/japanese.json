@@ -1,0 +1,446 @@
+{
+  "language": "japanese",
+  "displayName": "日本语 (Japanese)",
+  "levels": {
+    "absolute_beginner": {
+      "id": "absolute_beginner",
+      "name": "绝对初级 (Absolute Beginner)",
+      "description": "从零开始学习日语",
+      "vocabulary": [
+        { "word": "こんにちは", "romaji": "Konnichiwa", "meaning": "你好", "category": "greetings" },
+        { "word": "おはよう", "romaji": "Ohayou", "meaning": "早上好", "category": "greetings" },
+        { "word": "こんばんは", "romaji": "Konbanwa", "meaning": "晚上好", "category": "greetings" },
+        { "word": "はじめまして", "romaji": "Hajimemashite", "meaning": "初次见面", "category": "greetings" },
+        { "word": "さようなら", "romaji": "Sayounara", "meaning": "再见", "category": "greetings" },
+        { "word": "ありがとう", "romaji": "Arigatou", "meaning": "谢谢", "category": "basic" },
+        { "word": "すみません", "romaji": "Sumimasen", "meaning": "对不起", "category": "basic" },
+        { "word": "はい", "romaji": "Hai", "meaning": "是的", "category": "basic" },
+        { "word": "いいえ", "romaji": "Iie", "meaning": "不是", "category": "basic" },
+        { "word": "わたし", "romaji": "Watashi", "meaning": "我", "category": "pronouns" },
+        { "word": "あなた", "romaji": "Anata", "meaning": "你", "category": "pronouns" },
+        { "word": "かれ", "romaji": "Kare", "meaning": "他", "category": "pronouns" },
+        { "word": "かのじょ", "romaji": "Kanojo", "meaning": "她", "category": "pronouns" },
+        { "word": "なまえ", "romaji": "Namae", "meaning": "名字", "category": "basic" },
+        { "word": "がくせい", "romaji": "Gakusei", "meaning": "学生", "category": "occupation" }
+      ],
+      "conversations": [
+        {
+          "title": "第一次见面 (First Meeting)",
+          "scenario": "classroom",
+          "dialogue": [
+            { "speaker": "A", "text": "はじめまして。", "romaji": "Hajimemashite.", "translation": "初次见面。" },
+            { "speaker": "B", "text": "はじめまして。わたしは田中です。", "romaji": "Hajimemashite. Watashi wa Tanaka desu.", "translation": "初次见面。我是田中。" },
+            { "speaker": "A", "text": "わたしは李です。よろしくお願いします。", "romaji": "Watashi wa Li desu. Yoroshiku onegaishimasu.", "translation": "我是李。请多关照。" },
+            { "speaker": "B", "text": "こちらこそ、よろしくお願いします。", "romaji": "Kochira koso, yoroshiku onegaishimasu.", "translation": "我才要请您多关照。" }
+          ]
+        },
+        {
+          "title": "简单的问候 (Simple Greetings)",
+          "scenario": "street",
+          "dialogue": [
+            { "speaker": "A", "text": "おはよう。", "romaji": "Ohayou.", "translation": "早上好。" },
+            { "speaker": "B", "text": "おはよう。今日はいい天気ですね。", "romaji": "Ohayou. Kyou wa ii tenki desu ne.", "translation": "早上好。今天天气真好呢。" },
+            { "speaker": "A", "text": "そうですね。", "romaji": "Sou desu ne.", "translation": "是啊。" }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "title": "です (desu) - 肯定句",
+          "explanation": "「です」是日语中最基本的肯定句式，相当于中文的「是」。",
+          "examples": [
+            { "original": "わたしは学生です。", "romaji": "Watashi wa gakusei desu.", "translation": "我是学生。" },
+            { "original": "これは本です。", "romaji": "Kore wa hon desu.", "translation": "这是书。" },
+            { "original": "今日は月曜日です。", "romaji": "Kyou wa getsuyoubi desu.", "translation": "今天是星期一。" }
+          ],
+          "practice": [
+            { "question": "わたし___先生です。", "answer": "は", "explanation": "用「は」标记主题" },
+            { "question": "これ___ペンです。", "answer": "は", "explanation": "用「は」标记主题" },
+            { "question": "あなた___学生___。", "answer": "は、です", "explanation": "「は」标记主题，「です」表示肯定" }
+          ]
+        },
+        {
+          "title": "助词 は (wa)",
+          "explanation": "「は」读作「wa」，用于标记句子的主题。",
+          "examples": [
+            { "original": "わたしは中国人です。", "romaji": "Watashi wa chuugokujin desu.", "translation": "我是中国人。" },
+            { "original": "田中さんは先生です。", "romaji": "Tanaka-san wa sensei desu.", "translation": "田中先生是老师。" },
+            { "original": "これはペンです。", "romaji": "Kore wa pen desu.", "translation": "这是笔。" }
+          ],
+          "practice": [
+            { "question": "あなた___日本人ですか？", "answer": "は", "explanation": "标记主题「あなた」" },
+            { "question": "これ___何ですか？", "answer": "は", "explanation": "标记主题「これ」" }
+          ]
+        }
+      ]
+    },
+    "beginner": {
+      "id": "beginner",
+      "name": "初级 (Beginner)",
+      "description": "掌握基本日语表达",
+      "vocabulary": [
+        { "word": "たべる", "romaji": "Taberu", "meaning": "吃", "category": "verbs" },
+        { "word": "のむ", "romaji": "Nomu", "meaning": "喝", "category": "verbs" },
+        { "word": "みる", "romaji": "Miru", "meaning": "看", "category": "verbs" },
+        { "word": "きく", "romaji": "Kiku", "meaning": "听", "category": "verbs" },
+        { "word": "いく", "romaji": "Iku", "meaning": "去", "category": "verbs" },
+        { "word": "くる", "romaji": "Kuru", "meaning": "来", "category": "verbs" },
+        { "word": "かえる", "romaji": "Kaeru", "meaning": "回去", "category": "verbs" },
+        { "word": "べんきょう", "romaji": "Benkyou", "meaning": "学习", "category": "activities" },
+        { "word": "しごと", "romaji": "Shigoto", "meaning": "工作", "category": "activities" },
+        { "word": "がっこう", "romaji": "Gakkou", "meaning": "学校", "category": "places" },
+        { "word": "いえ", "romaji": "Ie", "meaning": "家", "category": "places" },
+        { "word": "えき", "romaji": "Eki", "meaning": "车站", "category": "places" },
+        { "word": "びょういん", "romaji": "Byouin", "meaning": "医院", "category": "places" },
+        { "word": "ともだち", "romaji": "Tomodachi", "meaning": "朋友", "category": "people" },
+        { "word": "かぞく", "romaji": "Kazoku", "meaning": "家人", "category": "people" },
+        { "word": "せんせい", "romaji": "Sensei", "meaning": "老师", "category": "people" },
+        { "word": "いしゃ", "romaji": "Isha", "meaning": "医生", "category": "people" },
+        { "word": "ほん", "romaji": "Hon", "meaning": "书", "category": "objects" },
+        { "word": "ペン", "romaji": "Pen", "meaning": "笔", "category": "objects" },
+        { "word": "でんわ", "romaji": "Denwa", "meaning": "电话", "category": "objects" }
+      ],
+      "conversations": [
+        {
+          "title": "在餐厅点餐 (Ordering at a Restaurant)",
+          "scenario": "restaurant",
+          "dialogue": [
+            { "speaker": "Waiter", "text": "いらっしゃいませ。何にしますか？", "romaji": "Irasshaimase. Nani ni shimasu ka?", "translation": "欢迎光临。您要点什么？" },
+            { "speaker": "Customer", "text": "ラーメンをお願いします。", "romaji": "Raamen wo onegaishimasu.", "translation": "请给我拉面。" },
+            { "speaker": "Waiter", "text": "飲み物はいかがですか？", "romaji": "Nomimono wa ikaga desu ka?", "translation": "饮料怎么样？" },
+            { "speaker": "Customer", "text": "お茶をお願いします。", "romaji": "Ocha wo onegaishimasu.", "translation": "请给我茶。" },
+            { "speaker": "Waiter", "text": "かしこまりました。", "romaji": "Kashikomarimashita.", "translation": "好的，明白了。" }
+          ]
+        },
+        {
+          "title": "问路 (Asking for Directions)",
+          "scenario": "street",
+          "dialogue": [
+            { "speaker": "Tourist", "text": "すみません、駅はどこですか？", "romaji": "Sumimasen, eki wa doko desu ka?", "translation": "对不起，车站在哪里？" },
+            { "speaker": "Local", "text": "まっすぐ行って、右に曲がってください。", "romaji": "Massugu itte, migi ni magatte kudasai.", "translation": "直走，然后右转。" },
+            { "speaker": "Tourist", "text": "ありがとうございます。", "romaji": "Arigatou gozaimasu.", "translation": "谢谢您。" },
+            { "speaker": "Local", "text": "どういたしまして。", "romaji": "Douitashimashite.", "translation": "不客气。" }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "title": "动词的现在式 (Present Tense Verbs)",
+          "explanation": "日语动词分为三类：一段动词、五段动词和不规则动词。现在式表示现在或将来的动作。",
+          "examples": [
+            { "original": "わたしは毎日日本語を勉強します。", "romaji": "Watashi wa mainichi nihongo wo benkyou shimasu.", "translation": "我每天学习日语。" },
+            { "original": "友達とテレビを見ます。", "romaji": "Tomodachi to terebi wo mimasu.", "translation": "和朋友一起看电视。" },
+            { "original": "明日学校に行きます。", "romaji": "Ashita gakkou ni ikimasu.", "translation": "明天去学校。" }
+          ],
+          "practice": [
+            { "question": "わたしは本を___。(读)", "answer": "読みます", "explanation": "読む的礼貌形式" },
+            { "question": "友達と映画を___。(看)", "answer": "見ます", "explanation": "見る的礼貌形式" },
+            { "question": "毎朝コーヒーを___。(喝)", "answer": "飲みます", "explanation": "飲む的礼貌形式" }
+          ]
+        },
+        {
+          "title": "助词 を (wo)",
+          "explanation": "「を」读作「o」，用于标记动词的直接宾语。",
+          "examples": [
+            { "original": "ご飯を食べます。", "romaji": "Gohan wo tabemasu.", "translation": "吃饭。" },
+            { "original": "音楽を聞きます。", "romaji": "Ongaku wo kikimasu.", "translation": "听音乐。" },
+            { "original": "日本語を勉強します。", "romaji": "Nihongo wo benkyou shimasu.", "translation": "学习日语。" }
+          ],
+          "practice": [
+            { "question": "本___読みます。", "answer": "を", "explanation": "标记直接宾语「本」" },
+            { "question": "水___飲みます。", "answer": "を", "explanation": "标记直接宾语「水」" }
+          ]
+        }
+      ]
+    },
+    "pre_intermediate": {
+      "id": "pre_intermediate",
+      "name": "准中级 (Pre-Intermediate)",
+      "description": "扩展日语交流能力",
+      "vocabulary": [
+        { "word": "けいけん", "romaji": "Keiken", "meaning": "经验", "category": "abstract" },
+        { "word": "きかい", "romaji": "Kikai", "meaning": "机会", "category": "abstract" },
+        { "word": "もんだい", "romaji": "Mondai", "meaning": "问题", "category": "abstract" },
+        { "word": "かいけつ", "romaji": "Kaiketsu", "meaning": "解决", "category": "abstract" },
+        { "word": "せいかつ", "romaji": "Seikatsu", "meaning": "生活", "category": "daily_life" },
+        { "word": "しゅみ", "romaji": "Shumi", "meaning": "兴趣", "category": "daily_life" },
+        { "word": "りょこう", "romaji": "Ryokou", "meaning": "旅行", "category": "activities" },
+        { "word": "けっこん", "romaji": "Kekkon", "meaning": "结婚", "category": "life_events" },
+        { "word": "そつぎょう", "romaji": "Sotsugyou", "meaning": "毕业", "category": "life_events" },
+        { "word": "しゅうしょく", "romaji": "Shuushoku", "meaning": "就职", "category": "life_events" },
+        { "word": "ぶんか", "romaji": "Bunka", "meaning": "文化", "category": "society" },
+        { "word": "でんとう", "romaji": "Dentou", "meaning": "传统", "category": "society" },
+        { "word": "ぎじゅつ", "romaji": "Gijutsu", "meaning": "技术", "category": "technology" },
+        { "word": "かんきょう", "romaji": "Kankyou", "meaning": "环境", "category": "environment" },
+        { "word": "しぜん", "romaji": "Shizen", "meaning": "自然", "category": "environment" }
+      ],
+      "conversations": [
+        {
+          "title": "谈论兴趣爱好 (Talking about Hobbies)",
+          "scenario": "social",
+          "dialogue": [
+            { "speaker": "A", "text": "趣味は何ですか？", "romaji": "Shumi wa nan desu ka?", "translation": "你的兴趣是什么？" },
+            { "speaker": "B", "text": "写真を撮ることです。Aさんは？", "romaji": "Shashin wo toru koto desu. A-san wa?", "translation": "是拍照。A先生呢？" },
+            { "speaker": "A", "text": "料理を作ることが好きです。", "romaji": "Ryouri wo tsukuru koto ga suki desu.", "translation": "我喜欢做菜。" },
+            { "speaker": "B", "text": "素晴らしいですね。どんな料理を作りますか？", "romaji": "Subarashii desu ne. Donna ryouri wo tsukurimasu ka?", "translation": "真棒呢。你做什么菜？" },
+            { "speaker": "A", "text": "中華料理をよく作ります。", "romaji": "Chuuka ryouri wo yoku tsukurimasu.", "translation": "经常做中国菜。" }
+          ]
+        },
+        {
+          "title": "计划旅行 (Planning a Trip)",
+          "scenario": "planning",
+          "dialogue": [
+            { "speaker": "A", "text": "来月、京都に行く予定です。", "romaji": "Raigetsu, Kyoto ni iku yotei desu.", "translation": "下个月打算去京都。" },
+            { "speaker": "B", "text": "いいですね。何日間いますか？", "romaji": "Ii desu ne. Nannichi-kan imasu ka?", "translation": "真好呢。要待几天？" },
+            { "speaker": "A", "text": "三日間です。おすすめの場所はありますか？", "romaji": "Mikka-kan desu. Osusume no basho wa arimasu ka?", "translation": "三天。有推荐的地方吗？" },
+            { "speaker": "B", "text": "清水寺と金閣寺は絶対に見た方がいいですよ。", "romaji": "Kiyomizu-dera to Kinkaku-ji wa zettai ni mita hou ga ii desu yo.", "translation": "清水寺和金阁寺绝对应该看看。" }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "title": "过去式 (Past Tense)",
+          "explanation": "日语动词的过去式表示已经完成的动作或状态。",
+          "examples": [
+            { "original": "昨日映画を見ました。", "romaji": "Kinou eiga wo mimashita.", "translation": "昨天看了电影。" },
+            { "original": "先週日本に行きました。", "romaji": "Senshuu Nihon ni ikimashita.", "translation": "上周去了日本。" },
+            { "original": "友達と話しました。", "romaji": "Tomodachi to hanashimashita.", "translation": "和朋友聊了天。" }
+          ],
+          "practice": [
+            { "question": "昨日何を___か？(吃了)", "answer": "食べました", "explanation": "食べる的过去式礼貌形" },
+            { "question": "先月日本語を___。(学习了)", "answer": "勉強しました", "explanation": "勉強する的过去式" }
+          ]
+        },
+        {
+          "title": "形容词的用法 (Adjective Usage)",
+          "explanation": "日语形容词分为い形容词和な形容词，用法略有不同。",
+          "examples": [
+            { "original": "この本は面白いです。", "romaji": "Kono hon wa omoshiroi desu.", "translation": "这本书很有趣。" },
+            { "original": "彼は親切な人です。", "romaji": "Kare wa shinsetsu na hito desu.", "translation": "他是个亲切的人。" },
+            { "original": "今日は暑かったです。", "romaji": "Kyou wa atsukatta desu.", "translation": "今天很热。" }
+          ],
+          "practice": [
+            { "question": "この映画は___です。(有趣)", "answer": "面白い", "explanation": "い形容词直接修饰" },
+            { "question": "彼女は___人です。(漂亮)", "answer": "きれいな", "explanation": "な形容词需要加「な」" }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "id": "intermediate",
+      "name": "中级 (Intermediate)",
+      "description": "提高日语表达的准确性和流畅度",
+      "vocabulary": [
+        { "word": "たいけん", "romaji": "Taiken", "meaning": "体验", "category": "experience" },
+        { "word": "いんしょう", "romaji": "Inshou", "meaning": "印象", "category": "feelings" },
+        { "word": "かんそう", "romaji": "Kansou", "meaning": "感想", "category": "feelings" },
+        { "word": "いけん", "romaji": "Iken", "meaning": "意见", "category": "opinion" },
+        { "word": "ていあん", "romaji": "Teian", "meaning": "提案", "category": "business" },
+        { "word": "かいぎ", "romaji": "Kaigi", "meaning": "会议", "category": "business" },
+        { "word": "せきにん", "romaji": "Sekinin", "meaning": "责任", "category": "business" },
+        { "word": "せいじ", "romaji": "Seiji", "meaning": "政治", "category": "society" },
+        { "word": "けいざい", "romaji": "Keizai", "meaning": "经济", "category": "society" },
+        { "word": "きょういく", "romaji": "Kyouiku", "meaning": "教育", "category": "society" },
+        { "word": "こくさい", "romaji": "Kokusai", "meaning": "国际", "category": "world" },
+        { "word": "へいわ", "romaji": "Heiwa", "meaning": "和平", "category": "world" },
+        { "word": "せんそう", "romaji": "Sensou", "meaning": "战争", "category": "world" },
+        { "word": "みらい", "romaji": "Mirai", "meaning": "未来", "category": "time" },
+        { "word": "かこ", "romaji": "Kako", "meaning": "过去", "category": "time" }
+      ],
+      "conversations": [
+        {
+          "title": "工作面试 (Job Interview)",
+          "scenario": "business",
+          "dialogue": [
+            { "speaker": "面试官", "text": "本日はお忙しい中、お時間をいただきありがとうございます。", "romaji": "Honjitsu wa oisogashii naka, ojikan wo itadaki arigatou gozaimasu.", "translation": "感谢您在百忙之中抽出时间。" },
+            { "speaker": "求职者", "text": "こちらこそ、このような機会をいただき、ありがとうございます。", "romaji": "Kochira koso, kono you na kikai wo itadaki, arigatou gozaimasu.", "translation": "我才要感谢您给我这样的机会。" },
+            { "speaker": "面试官", "text": "まず、自己紹介をお願いします。", "romaji": "Mazu, jikoshoukai wo onegaishimasu.", "translation": "首先，请自我介绍一下。" },
+            { "speaker": "求职者", "text": "王と申します。中国の北京出身で、日本語を5年間勉強しています。", "romaji": "Ou to moushimasu. Chuugoku no Pekin shusshin de, nihongo wo gonen-kan benkyou shite imasu.", "translation": "我叫王。来自中国北京，学习日语已经5年了。" }
+          ]
+        },
+        {
+          "title": "表达意见和建议 (Expressing Opinions and Suggestions)",
+          "scenario": "discussion",
+          "dialogue": [
+            { "speaker": "A", "text": "環境問題について、どう思いますか？", "romaji": "Kankyou mondai ni tsuite, dou omoimasu ka?", "translation": "关于环境问题，你怎么看？" },
+            { "speaker": "B", "text": "深刻な問題だと思います。一人一人が行動を変える必要があると思います。", "romaji": "Shinkoku na mondai da to omoimasu. Hitori hitori ga koudou wo kaeru hitsuyou ga aru to omoimasu.", "translation": "我认为这是个严重的问题。我觉得每个人都需要改变自己的行为。" },
+            { "speaker": "A", "text": "具体的には、どんなことができるでしょうか？", "romaji": "Gutaiteki ni wa, donna koto ga dekiru deshou ka?", "translation": "具体来说，能做些什么呢？" },
+            { "speaker": "B", "text": "リサイクルを増やしたり、公共交通機関を使ったりすることが大切だと思います。", "romaji": "Risaikuru wo fuyashitari, koukyou koutsuukikan wo tsukattari suru koto ga taisetsu da to omoimasu.", "translation": "我觉得增加回收利用、使用公共交通工具等很重要。" }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "title": "敬语的基本用法 (Basic Honorific Language)",
+          "explanation": "敬语是日语的重要特征，用于表示对他人的尊重。主要分为尊敬语、谦逊语和丁宁语。",
+          "examples": [
+            { "original": "先生はいらっしゃいますか？", "romaji": "Sensei wa irasshaimasu ka?", "translation": "老师在吗？(尊敬语)" },
+            { "original": "私が参ります。", "romaji": "Watashi ga mairimasu.", "translation": "我去。(谦逊语)" },
+            { "original": "こちらは田中部長でいらっしゃいます。", "romaji": "Kochira wa Tanaka-buchou de irasshaimasu.", "translation": "这位是田中部长。(尊敬语)" }
+          ],
+          "practice": [
+            { "question": "先生は何時に___ますか？(来-尊敬语)", "answer": "いらっしゃい", "explanation": "来る的尊敬语是いらっしゃる" },
+            { "question": "私が___ます。(说-谦逊语)", "answer": "申し上げ", "explanation": "言う的谦逊语是申し上げる" }
+          ]
+        },
+        {
+          "title": "条件表达 (Conditional Expressions)",
+          "explanation": "日语有多种表达条件的方式：と、ば、たら、なら等，用法各有特点。",
+          "examples": [
+            { "original": "雨が降ったら、家にいます。", "romaji": "Ame ga futtara, ie ni imasu.", "translation": "如果下雨，就待在家里。" },
+            { "original": "時間があれば、映画を見に行きます。", "romaji": "Jikan ga areba, eiga wo mi ni ikimasu.", "translation": "如果有时间，就去看电影。" },
+            { "original": "ボタンを押すと、電気がつきます。", "romaji": "Botan wo osu to, denki ga tsukimasu.", "translation": "按按钮，灯就会亮。" }
+          ],
+          "practice": [
+            { "question": "暑かっ___、エアコンをつけます。", "answer": "たら", "explanation": "表示假设条件用たら" },
+            { "question": "この薬を飲む___、よくなります。", "answer": "と", "explanation": "表示自然结果用と" }
+          ]
+        }
+      ]
+    },
+    "upper_intermediate": {
+      "id": "upper_intermediate",
+      "name": "中高级 (Upper Intermediate)",
+      "description": "掌握复杂的日语表达和商务用语",
+      "vocabulary": [
+        { "word": "せんもん", "romaji": "Senmon", "meaning": "专业", "category": "professional" },
+        { "word": "のうりょく", "romaji": "Nouryoku", "meaning": "能力", "category": "professional" },
+        { "word": "ぎのう", "romaji": "Ginou", "meaning": "技能", "category": "professional" },
+        { "word": "せいか", "romaji": "Seika", "meaning": "成果", "category": "business" },
+        { "word": "もくひょう", "romaji": "Mokuhyou", "meaning": "目标", "category": "business" },
+        { "word": "せんりゃく", "romaji": "Senryaku", "meaning": "战略", "category": "business" },
+        { "word": "けいえい", "romaji": "Keiei", "meaning": "经营", "category": "business" },
+        { "word": "とうし", "romaji": "Toushi", "meaning": "投资", "category": "finance" },
+        { "word": "りえき", "romaji": "Rieki", "meaning": "利益", "category": "finance" },
+        { "word": "そんしつ", "romaji": "Sonshitsu", "meaning": "损失", "category": "finance" },
+        { "word": "かくしん", "romaji": "Kakushin", "meaning": "革新", "category": "innovation" },
+        { "word": "かいはつ", "romaji": "Kaihatsu", "meaning": "开发", "category": "innovation" },
+        { "word": "しんぽ", "romaji": "Shinpo", "meaning": "进步", "category": "development" },
+        { "word": "こうりつ", "romaji": "Kouritsu", "meaning": "效率", "category": "performance" },
+        { "word": "ひんしつ", "romaji": "Hinshitsu", "meaning": "品质", "category": "quality" }
+      ],
+      "conversations": [
+        {
+          "title": "商务会议讨论 (Business Meeting Discussion)",
+          "scenario": "corporate",
+          "dialogue": [
+            { "speaker": "部长", "text": "今四半期の売上実績について報告させていただきます。", "romaji": "Konshihanki no uriage jisseki ni tsuite houkoku sasete itadakimasu.", "translation": "我来报告本季度的销售业绩。" },
+            { "speaker": "課长", "text": "前年同期と比較していかがでしょうか？", "romaji": "Zennen douki to hikaku shite ikaga deshou ka?", "translation": "与去年同期相比如何？" },
+            { "speaker": "部长", "text": "おかげさまで、15%の増加となっております。", "romaji": "Okagesama de, juugoppaasento no zouka to natte orimasu.", "translation": "托大家的福，增长了15%。" },
+            { "speaker": "課长", "text": "素晴らしい結果ですね。要因は何でしょうか？", "romaji": "Subarashii kekka desu ne. Youin wa nan deshou ka?", "translation": "真是出色的结果。原因是什么呢？" },
+            { "speaker": "部长", "text": "新商品の好調な売れ行きと、マーケティング戦略の効果だと考えております。", "romaji": "Shinshouhin no kouchou na ureyuki to, maakethingu senryaku no kouka da to kangaete orimasu.", "translation": "我认为是新产品的良好销售和营销策略的效果。" }
+          ]
+        },
+        {
+          "title": "学术讨论 (Academic Discussion)",
+          "scenario": "academic",
+          "dialogue": [
+            { "speaker": "教授", "text": "今回の研究結果についてご意見をお聞かせください。", "romaji": "Konkai no kenkyuu kekka ni tsuite goiken wo okikase kudasai.", "translation": "请谈谈对这次研究结果的意见。" },
+            { "speaker": "学生", "text": "非常に興味深い発見だと思います。ただし、サンプル数が少し少ないのではないでしょうか。", "romaji": "Hijou ni kyoumibukai hakken da to omoimasu. Tadashi, sanpuru-suu ga sukoshi sukunai no dewa nai deshou ka.", "translation": "我认为这是非常有趣的发现。不过，样本数是不是有点少？" },
+            { "speaker": "教授", "text": "確かにその通りです。今後、より大規模な調査を行う必要がありますね。", "romaji": "Tashika ni sono toori desu. Kongo, yori daikibo na chousa wo okonau hitsuyou ga arimasu ne.", "translation": "确实如此。今后需要进行更大规模的调查。" }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "title": "敬语的高级用法 (Advanced Honorific Usage)",
+          "explanation": "更复杂的敬语表达，包括谦让语和美化语的细致用法。",
+          "examples": [
+            { "original": "部長がお見えになりました。", "romaji": "Buchou ga omie ni narimashita.", "translation": "部长来了。(尊敬语)" },
+            { "original": "お忙しい中恐れ入りますが、お時間をいただけませんでしょうか。", "romaji": "Oisogashii naka osore irimasu ga, ojikan wo itadakemasen deshou ka.", "translation": "在您百忙之中很抱歉，能给我一点时间吗？" },
+            { "original": "こちらの件につきまして、ご検討いただければと存じます。", "romaji": "Kochira no ken ni tsukimashite, gokentou itadakereba to zonjimasu.", "translation": "关于这件事，希望您能考虑一下。" }
+          ],
+          "practice": [
+            { "question": "社長は会議室に___。(在-尊敬语)", "answer": "いらっしゃいます", "explanation": "いる的尊敬语是いらっしゃる" },
+            { "question": "資料を___。(准备-谦逊语)", "answer": "ご用意いたします", "explanation": "用意する的谦逊语表达" }
+          ]
+        },
+        {
+          "title": "复杂的修辞表达 (Complex Rhetorical Expressions)",
+          "explanation": "用于表达微妙语义和复杂逻辑关系的高级语法结构。",
+          "examples": [
+            { "original": "経済状況が悪化するにつれて、失業率も上昇している。", "romaji": "Keizai joukyou ga akka suru ni tsurete, shitsugyouritsu mo joushou shite iru.", "translation": "随着经济状况恶化，失业率也在上升。" },
+            { "original": "技術の進歩により、私たちの生活は大きく変わりました。", "romaji": "Gijutsu no shinpo ni yori, watashitachi no seikatsu wa ooki ku kawarimashita.", "translation": "由于技术进步，我们的生活发生了很大变化。" },
+            { "original": "予算が限られているため、計画を見直す必要があります。", "romaji": "Yosan ga kagirarete iru tame, keikaku wo minahosu hitsuyou ga arimasu.", "translation": "由于预算有限，需要重新审视计划。" }
+          ],
+          "practice": [
+            { "question": "気温が上がる___、売上も増加する。(随着)", "answer": "につれて", "explanation": "表示伴随变化用につれて" },
+            { "question": "雨が降っている___、試合は中止です。(因为)", "answer": "ため", "explanation": "表示原因用ため" }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "id": "advanced",
+      "name": "高级 (Advanced)",
+      "description": "达到接近母语水平的日语能力",
+      "vocabulary": [
+        { "word": "そうごう", "romaji": "Sougou", "meaning": "综合", "category": "complex_concepts" },
+        { "word": "たいけい", "romaji": "Taikei", "meaning": "体系", "category": "complex_concepts" },
+        { "word": "ろんり", "romaji": "Ronri", "meaning": "逻辑", "category": "philosophy" },
+        { "word": "てつがく", "romaji": "Tetsugaku", "meaning": "哲学", "category": "philosophy" },
+        { "word": "しんり", "romaji": "Shinri", "meaning": "心理", "category": "psychology" },
+        { "word": "ぶんめい", "romaji": "Bunmei", "meaning": "文明", "category": "culture" },
+        { "word": "いでん", "romaji": "Iden", "meaning": "遗传", "category": "science" },
+        { "word": "しんか", "romaji": "Shinka", "meaning": "进化", "category": "science" },
+        { "word": "ぶんせき", "romaji": "Bunseki", "meaning": "分析", "category": "methodology" },
+        { "word": "ごうせい", "romaji": "Gousei", "meaning": "合成", "category": "chemistry" },
+        { "word": "がいねん", "romaji": "Gainen", "meaning": "概念", "category": "abstract_thinking" },
+        { "word": "ほんしつ", "romaji": "Honshitsu", "meaning": "本质", "category": "abstract_thinking" },
+        { "word": "げんしょう", "romaji": "Genshou", "meaning": "现象", "category": "observation" },
+        { "word": "かせつ", "romaji": "Kasetsu", "meaning": "假设", "category": "theory" },
+        { "word": "けんしょう", "romaji": "Kenshou", "meaning": "验证", "category": "research" }
+      ],
+      "conversations": [
+        {
+          "title": "学术研究讨论 (Academic Research Discussion)",
+          "scenario": "research",
+          "dialogue": [
+            { "speaker": "研究者A", "text": "この仮説を検証するためには、どのような実験デザインが適切でしょうか。", "romaji": "Kono kasetsu wo kenshou suru tame ni wa, dono you na jikken dezain ga tekisetsu deshou ka.", "translation": "为了验证这个假设，什么样的实验设计比较合适呢？" },
+            { "speaker": "研究者B", "text": "統計的有意性を確保するためには、少なくとも1000名の被験者が必要だと思われます。", "romaji": "Toukeiteki yuuisei wo kakuho suru tame ni wa, sukunaku tomo sennin no hiken-sha ga hitsuyou da to omowaremasu.", "translation": "为了确保统计显著性，我认为至少需要1000名被试者。" },
+            { "speaker": "研究者A", "text": "なるほど。しかし、予算の制約を考慮すると、現実的ではないかもしれません。", "romaji": "Naruhodo. Shikashi, yosan no seiyaku wo kouryo suru to, genjitsuteki dewa nai kamoshiremasen.", "translation": "原来如此。但是，考虑到预算限制，可能不太现实。" },
+            { "speaker": "研究者B", "text": "では、層化抽出法を用いて、より効率的なサンプリングを行ってはいかがでしょうか。", "romaji": "Dewa, souchuu chuushutsu-hou wo mochiite, yori kouritsuteki na sanpuringu wo okonatte wa ikaga deshou ka.", "translation": "那么，使用分层抽样法进行更有效的采样如何？" }
+          ]
+        },
+        {
+          "title": "社会问题深度分析 (In-depth Social Issue Analysis)",
+          "scenario": "social_discourse",
+          "dialogue": [
+            { "speaker": "A", "text": "少子高齢化社会において、持続可能な社会保障制度を構築するには、どのような対策が必要でしょうか。", "romaji": "Shoushi kourei-ka shakai ni oite, jizoku kanou na shakai hoshou seido wo kouchiku suru ni wa, dono you na taisaku ga hitsuyou deshou ka.", "translation": "在少子老龄化社会中，要构建可持续的社会保障制度，需要什么样的对策呢？" },
+            { "speaker": "B", "text": "根本的には、労働力不足を補うための技術革新と、多様な働き方を認める社会制度の改革が不可欠だと考えます。", "romaji": "Konponteki ni wa, roudouryoku busoku wo oginau tame no gijutsu kakushin to, tayou na hatarakikata wo mitomeru shakai seido no kaikaku ga fukaketsu da to kangaemasu.", "translation": "我认为从根本上来说，为了补充劳动力不足的技术革新和认可多样化工作方式的社会制度改革是必不可少的。" },
+            { "speaker": "A", "text": "興味深い視点ですね。具体的には、どのような技術革新を想定されていますか。", "romaji": "Kyoumibukai shiten desu ne. Gutaiteki ni wa, dono you na gijutsu kakushin wo soutei sarete imasu ka.", "translation": "真是有趣的观点。具体来说，您设想的是什么样的技术革新呢？" },
+            { "speaker": "B", "text": "人工知能やロボット技術の活用により、従来人間が行っていた業務の自動化を進めることで、生産性の向上を図ることができると思います。", "romaji": "Jinkou chinou ya robotto gijutsu no katsuyou ni yori, juurai ningen ga okonatte ita gyoumu no jidouka wo susumeru koto de, seisansei no koujou wo hakaru koto ga dekiru to omoimasu.", "translation": "我认为通过利用人工智能和机器人技术，推进原本由人类进行的业务自动化，可以提高生产效率。" }
+          ]
+        }
+      ],
+      "grammar": [
+        {
+          "title": "高级修辞技巧 (Advanced Rhetorical Techniques)",
+          "explanation": "掌握复杂的修辞手法，能够进行学术性和专业性的表达。",
+          "examples": [
+            { "original": "言うまでもなく、この問題は複雑で多面的である。", "romaji": "Iu made mo naku, kono mondai wa fukuzatsu de tamenteki de aru.", "translation": "不言而喻，这个问题是复杂而多面的。" },
+            { "original": "かかる状況下において、我々は慎重な判断を下さねばならない。", "romaji": "Kakaru joukyou-ka ni oite, wareware wa shinchou na handan wo kudasaneba naranai.", "translation": "在这种情况下，我们必须做出慎重的判断。" },
+            { "original": "ひいては、これが社会全体の発展に寄与するものと期待される。", "romaji": "Hiite wa, kore ga shakai zentai no hatten ni kiyo suru mono to kitai sareru.", "translation": "进而，期待这能对整个社会的发展做出贡献。" }
+          ],
+          "practice": [
+            { "question": "この理論は、___、革新的である。(不言而喻)", "answer": "言うまでもなく", "explanation": "表示显而易见的事实" },
+            { "question": "___、新たな課題が生まれる。(进而)", "answer": "ひいては", "explanation": "表示进一步的结果" }
+          ]
+        },
+        {
+          "title": "古典语法和文语表达 (Classical Grammar and Literary Expressions)",
+          "explanation": "理解和使用古典日语语法，能够阅读和理解正式文献。",
+          "examples": [
+            { "original": "かくのごとき事態は予想されていなかった。", "romaji": "Kaku no gotoki jitai wa yosou sarete inakatta.", "translation": "像这样的事态是没有预想到的。" },
+            { "original": "いわんや一般市民においてをや。", "romaji": "Iwan ya ippan shimin ni oite wo ya.", "translation": "更不用说一般市民了。" },
+            { "original": "この研究は、従来の理論に一石を投じるものである。", "romaji": "Kono kenkyuu wa, juurai no riron ni isseki wo toujiru mono de aru.", "translation": "这项研究对传统理论投下了一颗石子。" }
+          ],
+          "practice": [
+            { "question": "___事態は深刻である。(这样的)", "answer": "かくのごとき", "explanation": "文语表达「这样的」" },
+            { "question": "専門家でさえ困難である。___素人においてをや。", "answer": "いわんや", "explanation": "表示更不用说" }
+          ]
+        }
+      ]
+    }
+  }
+}
