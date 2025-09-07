@@ -1,4 +1,5 @@
 import React from 'react';
+import TapirLogo from './TapirLogo';
 
 function Footer() {
   return (
@@ -8,7 +9,7 @@ function Footer() {
           {/* Brand and Description */}
           <div className="flex flex-col items-center md:items-start">
             <div className="flex items-center space-x-2 mb-2">
-              <span className="text-2xl">🦉</span>
+              <TapirLogo size="h-20 w-20" />
               <span className="font-bold text-xl text-duo-green-700 font-comfortaa">LearnHub</span>
             </div>
             <p className="text-gray-600 text-sm text-center md:text-left">

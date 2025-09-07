@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import TapirLogo from '../components/TapirLogo';
 import LanguageLearningFeatures from '../components/language/LanguageLearningFeatures';
 import languageDataService from '../data/languageDataService';
 
@@ -54,7 +55,9 @@ function LanguageLearningPage() {
         {/* Hero Section */}
         <div className="text-center mb-12">
           <div className="flex justify-center items-center space-x-4 mb-6">
-            <div className="text-6xl animate-bounce-slow">🦉</div>
+            <div className="text-6xl animate-bounce-slow">
+              <TapirLogo size="h-40 w-40 sm:h-44 sm:w-44 md:h-48 md:w-48 lg:h-36 lg:w-36" />
+            </div>
             <div>
               <h1 className="text-5xl font-bold mb-2 bg-gradient-to-r from-duo-green-600 to-duo-blue-600 bg-clip-text text-transparent font-comfortaa">
                 语言学习中心
